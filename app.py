@@ -3,7 +3,6 @@ import sqlite3
 import os
 
 app = Flask(__name__)
-
 app.config['CDN_URL'] = 'https://d3fsw9x8saahcy.cloudfront.net/'
 
 
