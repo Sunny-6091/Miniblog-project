@@ -12,6 +12,9 @@
             <a href="{{ url_for('about') }}">About</a> |
             <a href="{{ url_for('new_post') }}">New Post</a>
         </nav>
+
+        <!-- ✅ CloudFront-hosted image -->
+        <img src="https://d3fsw9x8saahcy.cloudfront.net/static/images/coin.png" alt="Coin" width="100">
     </header>
     <main>
         {% block content %}{% endblock %}
